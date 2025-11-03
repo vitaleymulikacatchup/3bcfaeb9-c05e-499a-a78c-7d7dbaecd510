@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
@@ -8,9 +8,9 @@ import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
-import { Award, Heart, BookOpen, Leaf, Home, ChefHat, Star } from 'lucide-react';
+import { Award, Heart, BookOpen, Leaf, User, ChefHat, Star } from 'lucide-react';
 
-export default function Home() {
+export default function Page() {
   return (
     <ThemeProvider
       defaultButtonVariant="slide-background"
@@ -76,7 +76,7 @@ export default function Home() {
             {
               title: "Authentic Atmosphere",
               description: "Warm, welcoming environment that feels like home",
-              icon: Home
+              icon: User
             }
           ]}
           imageSrc="https://images.pexels.com/photos/3771814/pexels-photo-3771814.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
